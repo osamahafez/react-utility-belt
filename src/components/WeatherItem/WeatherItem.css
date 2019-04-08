@@ -1,0 +1,15 @@
+.WeatherItemWrapper {
+    width: 20%;
+    margin: auto;
+    border: 1px solid #888;
+    box-shadow: 3px 5px #888;
+}
+
+.WeatherItemCardTitle {
+    font-size: 26px;
+    text-align: center;
+}
+
+.WeatherItemCardText {
+    font-size: 18px;
+}
