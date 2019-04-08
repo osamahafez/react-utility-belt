@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import Auxiliary from './hoc/Auxiliary';
+import Aux from './hoc/Auxiliary';
 import Layout from './components/Layout/Layout';
+import WeatherContainer from './containers/WeatherContainer/WeatherContainer';
 
 class App extends Component {
+  
   render() {
-    return (
-      <Auxiliary>
-        <Layout> Hello layout </Layout>
-      </Auxiliary>
-    );
+      return (
+          <Aux>
+              <Layout>
+                  <WeatherContainer />
+              </Layout>
+          </Aux>
+      );
   }
 }
 
