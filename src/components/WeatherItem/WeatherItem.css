@@ -3,13 +3,10 @@
     margin: auto;
     border: 1px solid #888;
     box-shadow: 3px 5px #888;
+    font-family: 'Noto Serif TC', serif;
 }
 
-.WeatherItemCardTitle {
-    font-size: 26px;
-    text-align: center;
-}
-
-.WeatherItemCardText {
-    font-size: 18px;
+.WeatherItemCardTitle, .WeatherItemCardText {
+    font-size: 3vw;
+    text-align: center;   
 }
