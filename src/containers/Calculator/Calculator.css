@@ -1,0 +1,33 @@
+.calculator-container {
+    width: 420px;
+    margin: auto;
+    background-color: #1F6582;
+    padding: 30px;
+}
+
+.screen {
+    height: 100px;
+    background-color: gray;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 0px 7px;
+    border-radius: 5px;
+}
+
+.buttons {
+    text-align: center; 
+    background-color: #1F6582;
+}
+
+.custom-row {
+    margin-bottom: 5px;
+}
+
+.cell{
+   font-size: 30px;
+}
+
+.cell-big-word {
+    margin: -15px;
+}

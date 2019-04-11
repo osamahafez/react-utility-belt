@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Aux from './hoc/Auxiliary';
 import Layout from './components/Layout/Layout';
 import WeatherContainer from './containers/WeatherContainer/WeatherContainer';
-import WorldClock from './components/WorldClock/WorldClock';
+import WorldClock from './containers/WorldClock/WorldClock';
+import Calculator from './containers/Calculator/Calculator';
 
 class App extends Component {
   
@@ -11,7 +12,8 @@ class App extends Component {
           <Aux>
               <Layout>
                   {/* <WeatherContainer /> */}
-                  <WorldClock />
+                  {/* <WorldClock /> */}
+                <Calculator />
               </Layout>
           </Aux>
       );
