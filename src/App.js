@@ -11,9 +11,10 @@ class App extends Component {
       return (
           <Aux>
               <Layout>
+                  
                   {/* <WeatherContainer /> */}
                   {/* <WorldClock /> */}
-                <Calculator />
+                  {/* <Calculator /> */}
               </Layout>
           </Aux>
       );

@@ -7,10 +7,10 @@ import {
     CardText   
 } from 'reactstrap';
 import './WeatherItem.css';
-import CloudSunny from '../../assets/images/CloudSunny.png';
-import Sunny from '../../assets/images/Sunny.png';
-import Rainy from '../../assets/images/Rainy.png';
-import Lighting from '../../assets/images/Lighting.png';
+import CloudSunny from '../../assets/images/WeatherImages/CloudSunny.png';
+import Sunny from '../../assets/images/WeatherImages/Sunny.png';
+import Rainy from '../../assets/images/WeatherImages/Rainy.png';
+import Lighting from '../../assets/images/WeatherImages/Lighting.png';
 
 const weatherItem = (props) => {
 
