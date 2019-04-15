@@ -6,6 +6,7 @@
 
 .bg-lightYellow {
     background-color: #FFE241;
+    margin-bottom: 30px;
 }
 
 .brand-logo {
@@ -22,9 +23,11 @@
     margin-left: 5px;    
 }
 
-.links-custom li:hover {
-    border-bottom: 2px solid red;
-    border-top: 2px solid red;
+.links-custom li:hover,
+.links-custom li:active,
+.nav-activated {
+    border-bottom: 2px solid rgb(176, 115, 172);
+    border-top: 2px solid rgb(176, 115, 172);
 }
 
 .nav-text{
