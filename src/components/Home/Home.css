@@ -1,0 +1,10 @@
+.jumbotron-custom {
+    background-color: rgba(160, 151, 151, 0.1);
+    border-top: 2px solid rgb(211, 198, 23);;
+    border-bottom: 2px solid rgb(211, 198, 23);
+}
+
+.jumbotron-brand-name {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
