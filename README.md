@@ -1,4 +1,4 @@
-# Fanny Pack 
+# React-Utility-Belt 
 ### A react app that provides various tools and widgets like Weather Forecasting, global clocks, a calculator etc...
 
 **Website:** https://react-fanny-pack.firebaseapp.com/
